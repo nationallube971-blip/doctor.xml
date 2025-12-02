@@ -7,6 +7,7 @@
 	<email>doctorsamoylenko@mail.ru</email>
 
 	<doctors>
+		<!-- Все врачи как в предыдущем файле -->
 		<doctor id="samoylenko-1">
 			<internal_id>id1</internal_id>
 			<name>Самойленко Александр Игоревич</name>
@@ -310,6 +311,224 @@
 	</services>
 
 	<offers>
-		<!-- Все 10 офферов остаются без изменений -->
+		<offer id="offer1">
+			<url>https://doctorsamoylenko.ru/samoylenko</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>12500</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="samoylenko-1">
+					<speciality>офтальмохирург</speciality>
+					<children_appointment>false</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<offer id="offer2">
+			<url>https://doctorsamoylenko.ru/rybakov</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>6500</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="rybakov-1">
+					<speciality>офтальмохирург</speciality>
+					<children_appointment>false</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<offer id="offer3">
+			<url>https://doctorsamoylenko.ru/alekseev</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>5500</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="alekseev">
+					<speciality>офтальмолог (окулист)</speciality>
+					<children_appointment>false</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<offer id="offer4">
+			<url>https://doctorsamoylenko.ru/plastinina</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>4500</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="plastinina">
+					<speciality>офтальмолог (окулист)</speciality>
+					<children_appointment>false</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<offer id="offer5">
+			<url>https://doctorsamoylenko.ru/karlova</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>4500</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="karlova">
+					<speciality>офтальмолог (окулист)</speciality>
+					<children_appointment>false</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<offer id="offer6">
+			<url>https://doctorsamoylenko.ru/shkurenko</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>4500</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="shkurenko">
+					<speciality>офтальмохирург</speciality>
+					<children_appointment>false</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<offer id="offer7">
+			<url>https://doctorsamoylenko.ru/melnikova</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>6500</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="melnikova">
+					<speciality>офтальмолог (окулист)</speciality>
+					<children_appointment>false</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<offer id="offer8">
+			<url>https://doctorsamoylenko.ru/zemskaya</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>4500</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="zemskaya">
+					<speciality>офтальмолог (окулист)</speciality>
+					<children_appointment>true</children_appointment>
+					<adult_appointment>false</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<offer id="offer9">
+			<url>https://doctorsamoylenko.ru/usharova</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>6500</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="usharova">
+					<speciality>офтальмохирург</speciality>
+					<children_appointment>false</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<offer id="offer10">
+			<url>https://doctorsamoylenko.ru/lebedev</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>4000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="lebedev">
+					<speciality>пластический хирург</speciality>
+					<children_appointment>false</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
 	</offers>
 </shop>
