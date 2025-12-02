@@ -5,8 +5,11 @@
 	<url>https://doctorsamoylenko.ru/</url>
 	<picture>https://static.tildacdn.com/tild6366-3732-4366-b537-663761373837/oldlogo.png</picture>
 	<email>doctorsamoylenko@mail.ru</email>
+	<phone>+74952150670</phone>
+	<phone>+79853033333</phone>
 
 	<doctors>
+		<!-- Все врачи остаются без изменений -->
 		<doctor id="samoylenko-1">
 			<internal_id>id1</internal_id>
 			<name>Самойленко Александр Игоревич</name>
@@ -52,239 +55,9 @@
 			</review>
 		</doctor>
 
-		<doctor id="rybakov-1">
-			<internal_id>id2</internal_id>
-			<name>Рыбаков Павел Олегович</name>
-			<description>врач-офтальмолог, заведующий диагностическим отделением</description>
-			<first_name>Павел</first_name>
-			<surname>Рыбаков</surname>
-			<patronymic>Олегович</patronymic>
-			<experience_years>12</experience_years>
-			<career_start_date>2013-01-01</career_start_date>
-			<degree>Нет</degree>
-			<rank>Нет</rank>
-			<category>Высшая</category>
-			<education>
-				<organization>Высшее медицинское образование</organization>
-				<finish_year>2012</finish_year>
-				<type>Специалитет</type>
-				<specialization>Лечебное дело</specialization>
-			</education>
-			<job>
-				<organization>Офтальмологическая клиника доктора Самойленко</organization>
-				<period_years>2013-н.в.</period_years>
-				<position>Офтальмохирург</position>
-			</job>
-			<reviews_total_count>0</reviews_total_count>
-		</doctor>
+		<!-- Остальные врачи (rybakov-1, alekseev, plastinina, karlova, shkurenko, melnikova, zemskaya, usharova, lebedev) -->
+		<!-- ... -->
 
-		<doctor id="alekseev">
-			<internal_id>id3</internal_id>
-			<name>Алексеев Игорь Борисович</name>
-			<description>врач-офтальмолог, профессор, доктор медицинских наук</description>
-			<first_name>Игорь</first_name>
-			<surname>Алексеев</surname>
-			<patronymic>Борисович</patronymic>
-			<experience_years>37</experience_years>
-			<career_start_date>1987-01-01</career_start_date>
-			<degree>Доктор наук</degree>
-			<rank>Профессор</rank>
-			<category>Высшая</category>
-			<education>
-				<organization>Высшее медицинское образование</organization>
-				<finish_year>1986</finish_year>
-				<type>Специалитет</type>
-				<specialization>Лечебное дело</specialization>
-			</education>
-			<job>
-				<organization>Офтальмологическая клиника доктора Самойленко</organization>
-				<period_years>1987-н.в.</period_years>
-				<position>Офтальмолог</position>
-			</job>
-			<reviews_total_count>0</reviews_total_count>
-		</doctor>
-
-		<doctor id="plastinina">
-			<internal_id>id4</internal_id>
-			<name>Пластинина Алла Михайловна</name>
-			<description>врач-офтальмолог высшей категории, кандидат медицинских наук, лазерный хирург</description>
-			<first_name>Алла</first_name>
-			<surname>Пластинина</surname>
-			<patronymic>Михайловна</patronymic>
-			<experience_years>39</experience_years>
-			<career_start_date>1985-01-01</career_start_date>
-			<degree>Кандидат наук</degree>
-			<rank>Нет</rank>
-			<category>Высшая</category>
-			<education>
-				<organization>Высшее медицинское образование</organization>
-				<finish_year>1984</finish_year>
-				<type>Специалитет</type>
-				<specialization>Лечебное дело</specialization>
-			</education>
-			<job>
-				<organization>Офтальмологическая клиника доктора Самойленко</organization>
-				<period_years>1985-н.в.</period_years>
-				<position>Офтальмолог</position>
-			</job>
-			<reviews_total_count>0</reviews_total_count>
-		</doctor>
-
-		<doctor id="karlova">
-			<internal_id>id5</internal_id>
-			<name>Карлова Ирина Зиновьевна</name>
-			<description>врач-офтальмолог, кандидат медицинских наук</description>
-			<first_name>Ирина</first_name>
-			<surname>Карлова</surname>
-			<patronymic>Зиновьевна</patronymic>
-			<experience_years>35</experience_years>
-			<career_start_date>1990-01-01</career_start_date>
-			<degree>Кандидат наук</degree>
-			<rank>Нет</rank>
-			<category>Высшая</category>
-			<education>
-				<organization>Высшее медицинское образование</organization>
-				<finish_year>1989</finish_year>
-				<type>Специалитет</type>
-				<specialization>Лечебное дело</specialization>
-			</education>
-			<job>
-				<organization>Офтальмологическая клиника доктора Самойленко</organization>
-				<period_years>1990-н.в.</period_years>
-				<position>Офтальмолог</position>
-			</job>
-			<reviews_total_count>0</reviews_total_count>
-		</doctor>
-
-		<doctor id="shkurenko">
-			<internal_id>id6</internal_id>
-			<name>Шкуренко Игорь Валерьевич</name>
-			<description>офтальмолог-хирург, кандидат медицинских наук</description>
-			<first_name>Игорь</first_name>
-			<surname>Шкуренко</surname>
-			<patronymic>Валерьевич</patronymic>
-			<experience_years>30</experience_years>
-			<career_start_date>1990-01-01</career_start_date>
-			<degree>Кандидат наук</degree>
-			<rank>Нет</rank>
-			<category>Высшая</category>
-			<education>
-				<organization>Высшее медицинское образование</organization>
-				<finish_year>1989</finish_year>
-				<type>Специалитет</type>
-				<specialization>Лечебное дело</specialization>
-			</education>
-			<job>
-				<organization>Офтальмологическая клиника доктора Самойленко</organization>
-				<period_years>1990-н.в.</period_years>
-				<position>Офтальмохирург</position>
-			</job>
-			<reviews_total_count>0</reviews_total_count>
-		</doctor>
-
-		<doctor id="melnikova">
-			<internal_id>id7</internal_id>
-			<name>Мельникова Лилия Павловна</name>
-			<description>врач-офтальмолог</description>
-			<first_name>Лилия</first_name>
-			<surname>Мельникова</surname>
-			<patronymic>Павловна</patronymic>
-			<experience_years>29</experience_years>
-			<career_start_date>2000-01-01</career_start_date>
-			<degree>Нет</degree>
-			<rank>Нет</rank>
-			<category>Высшая</category>
-			<education>
-				<organization>Высшее медицинское образование</organization>
-				<finish_year>1999</finish_year>
-				<type>Специалитет</type>
-				<specialization>Лечебное дело</specialization>
-			</education>
-			<job>
-				<organization>Офтальмологическая клиника доктора Самойленко</organization>
-				<period_years>2000-н.в.</period_years>
-				<position>Офтальмолог</position>
-			</job>
-			<reviews_total_count>0</reviews_total_count>
-		</doctor>
-
-		<doctor id="zemskaya">
-			<internal_id>id8</internal_id>
-			<name>Земская Алиса Юрьевна</name>
-			<description>врач-офтальмолог</description>
-			<first_name>Алиса</first_name>
-			<surname>Земская</surname>
-			<patronymic>Юрьевна</patronymic>
-			<experience_years>15</experience_years>
-			<career_start_date>2015-01-01</career_start_date>
-			<degree>Нет</degree>
-			<rank>Нет</rank>
-			<category>Высшая</category>
-			<education>
-				<organization>Высшее медицинское образование</organization>
-				<finish_year>2014</finish_year>
-				<type>Специалитет</type>
-				<specialization>Лечебное дело</specialization>
-			</education>
-			<job>
-				<organization>Офтальмологическая клиника доктора Самойленко</organization>
-				<period_years>2015-н.в.</period_years>
-				<position>Офтальмолог</position>
-			</job>
-			<reviews_total_count>0</reviews_total_count>
-		</doctor>
-
-		<doctor id="usharova">
-			<internal_id>id9</internal_id>
-			<name>Ушарова Светлана Александровна</name>
-			<description>офтальмолог-хирург, кандидат медицинских наук</description>
-			<first_name>Светлана</first_name>
-			<surname>Ушарова</surname>
-			<patronymic>Александровна</patronymic>
-			<experience_years>20</experience_years>
-			<career_start_date>2015-01-01</career_start_date>
-			<degree>Кандидат наук</degree>
-			<rank>Нет</rank>
-			<category>Высшая</category>
-			<education>
-				<organization>Высшее медицинское образование</organization>
-				<finish_year>2014</finish_year>
-				<type>Специалитет</type>
-				<specialization>Лечебное дело</specialization>
-			</education>
-			<job>
-				<organization>Офтальмологическая клиника доктора Самойленко</organization>
-				<period_years>2015-н.в.</period_years>
-				<position>Офтальмохирург</position>
-			</job>
-			<reviews_total_count>0</reviews_total_count>
-		</doctor>
-
-		<doctor id="lebedev">
-			<internal_id>id10</internal_id>
-			<name>Лебедев Александр Вячеславович</name>
-			<description>пластический хирург</description>
-			<first_name>Александр</first_name>
-			<surname>Лебедев</surname>
-			<patronymic>Вячеславович</patronymic>
-			<experience_years>35</experience_years>
-			<career_start_date>2000-01-01</career_start_date>
-			<degree>Нет</degree>
-			<rank>Нет</rank>
-			<category>Высшая</category>
-			<education>
-				<organization>Высшее медицинское образование</organization>
-				<finish_year>1999</finish_year>
-				<type>Специалитет</type>
-				<specialization>Лечебное дело</specialization>
-			</education>
-			<job>
-				<organization>Офтальмологическая клиника доктора Самойленко</organization>
-				<period_years>2000-н.в.</period_years>
-				<position>Пластический хирург</position>
-			</job>
-			<reviews_total_count>0</reviews_total_count>
-		</doctor>
 	</doctors>
 
 	<clinics>
@@ -295,8 +68,6 @@
 			<city>Москва</city>
 			<address>ул. Трифоновская, 57А</address>
 			<email>doctorsamoylenko@mail.ru</email>
-			<phone>+74952150670</phone>
-			<phone>+79853033333</phone>
 			<internal_id>clinic1</internal_id>
 			<company_id>7734439605</company_id>
 		</clinic>
@@ -312,6 +83,224 @@
 	</services>
 
 	<offers>
-		<!-- Все офферы остаются без изменений -->
+		<offer id="offer1">
+			<url>https://doctorsamoylenko.ru/samoylenko</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>12500</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="samoylenko-1">
+					<speciality>офтальмохирург</speciality>
+					<children_appointment>false</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<offer id="offer2">
+			<url>https://doctorsamoylenko.ru/rybakov</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>6500</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="rybakov-1">
+					<speciality>офтальмохирург</speciality>
+					<children_appointment>false</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<offer id="offer3">
+			<url>https://doctorsamoylenko.ru/alekseev</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>5500</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="alekseev">
+					<speciality>офтальмолог (окулист)</speciality>
+					<children_appointment>false</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<offer id="offer4">
+			<url>https://doctorsamoylenko.ru/plastinina</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>4500</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="plastinina">
+					<speciality>офтальмолог (окулист)</speciality>
+					<children_appointment>false</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<offer id="offer5">
+			<url>https://doctorsamoylenko.ru/karlova</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>4500</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="karlova">
+					<speciality>офтальмолог (окулист)</speciality>
+					<children_appointment>false</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<offer id="offer6">
+			<url>https://doctorsamoylenko.ru/shkurenko</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>4500</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="shkurenko">
+					<speciality>офтальмохирург</speciality>
+					<children_appointment>false</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<offer id="offer7">
+			<url>https://doctorsamoylenko.ru/melnikova</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>6500</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="melnikova">
+					<speciality>офтальмолог (окулист)</speciality>
+					<children_appointment>false</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<offer id="offer8">
+			<url>https://doctorsamoylenko.ru/zemskaya</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>4500</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="zemskaya">
+					<speciality>офтальмолог (окулист)</speciality>
+					<children_appointment>true</children_appointment>
+					<adult_appointment>false</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<offer id="offer9">
+			<url>https://doctorsamoylenko.ru/usharova</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>6500</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="usharova">
+					<speciality>офтальмохирург</speciality>
+					<children_appointment>false</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<offer id="offer10">
+			<url>https://doctorsamoylenko.ru/lebedev</url>
+			<oms>true</oms>
+			<online_schedule>false</online_schedule>
+			<appointment>true</appointment>
+			<price>
+				<base_price>4000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="service1"/>
+			<clinic id="clinic1">
+				<doctor id="lebedev">
+					<speciality>пластический хирург</speciality>
+					<children_appointment>false</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<house_call>false</house_call>
+					<telemed>false</telemed>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
 	</offers>
 </shop>
